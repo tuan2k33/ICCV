@@ -1,0 +1,81 @@
+@import 'tailwindcss';
+
+@font-face {
+  font-family: 'PublicSans';
+  src: url('/fonts/PublicSans-VariableFont_wght.ttf') format('truetype-variations');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PublicSans';
+  src: url('/fonts/PublicSans-Italic-VariableFont_wght.ttf') format('truetype-variations');
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@theme {
+  --font-sans:
+    'PublicSans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+    'Segoe UI Symbol', 'Noto Color Emoji';
+  --color-primary: #1877f2;
+  --color-blue-secondary: #078dee;
+  --color-success: #17b26a;
+  --color-error: #ec221f;
+  --color-error-secondary: #9e150b;
+  --color-border-primary: #d0d5dd;
+  --color-border-secondary: #eaecf0;
+  --color-border-error: #fda29b;
+
+  --color-text-default: #1e1e1e;
+  --color-text-default-secondary: #757575;
+  --color-text-primary: #101828;
+  --color-text-secondary: #344054;
+  --color-quaternary: #667085;
+  --color-tertiary: #b3b3b3;
+  --color-tertiary-600: #475467;
+  --color-primary-black: #1d2433;
+  --text-xs: 12px;
+}
+
+html,
+body {
+  @apply bg-white text-text-default;
+}
+
+.scrollbar-none::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+.scrollbar-xs::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+.scrollbar-xs::-webkit-scrollbar-thumb {
+  background: #000;
+  border-radius: 999px;
+  background-color: var(--color-border-primary);
+}
+
+input.appearance-none {
+  -moz-appearance: textfield;
+}
+
+input.appearance-none::-webkit-outer-spin-button,
+input.appearance-none::-webkit-inner-spin-button {
+  display: none;
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+:where(button:not(:disabled)) {
+  cursor: pointer;
+}
+
+:where(button:disabled) {
+  cursor: not-allowed;
+}

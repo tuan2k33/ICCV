@@ -1,0 +1,10 @@
+import yaml
+import os
+
+
+def load_yaml(path: str = "config.yaml") -> dict:
+    """Đọc file YAML và trả về dict"""
+    if not os.path.exists(path):
+        raise FileNotFoundError(f"Không tìm thấy file config: {path}")
+    with open(path, "r", encoding="utf-8") as f:
+        return yaml.safe_load(f) or {}

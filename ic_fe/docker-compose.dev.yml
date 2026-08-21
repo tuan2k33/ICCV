@@ -1,0 +1,21 @@
+name: ai-ic-fe-dev
+
+services:
+  ai_ic_fe:
+    container_name: ic_fe_dev
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: ai-ic-fe
+    ports:
+      - 5173:80
+    restart: always
+    environment:
+      - BACKEND_URL=${BACKEND_URL:-http://api:8000}
+    networks:
+      - default
+      - traefik_net
+
+networks:
+  traefik_net:
+    external: true

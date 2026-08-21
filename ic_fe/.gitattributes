@@ -1,0 +1,12 @@
+/public/fake/** filter=lfs diff=lfs merge=lfs -text
+/public/**/*.xlsx filter=lfs diff=lfs merge=lfs -text
+
+*.xlsx binary
+*.xls binary
+*.zip binary
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.ico binary
+*.docx binary

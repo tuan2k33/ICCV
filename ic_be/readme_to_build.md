@@ -1,0 +1,2 @@
+PATH_DATA=/ssd1/inventory_count PATH_TEMPLATE_FILE=/ssd1/inventory_count/code/AI_IC_BE/template.xlsx docker compose down -v
+PATH_DATA=/ssd1/inventory_count PATH_TEMPLATE_FILE=/ssd1/inventory_count/code/AI_IC_BE/template.xlsx docker compose up -d --build

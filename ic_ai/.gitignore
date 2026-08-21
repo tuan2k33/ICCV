@@ -1,0 +1,8 @@
+__pycache__/
+*outputs*/
+videos/
+weights/
+*.bak
+*test*
+decord
+cam_rong

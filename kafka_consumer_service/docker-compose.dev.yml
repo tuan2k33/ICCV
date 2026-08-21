@@ -1,0 +1,15 @@
+name: kafka-consumer-dev
+
+services:
+  consumer-service:
+    build: .
+    container_name: ic_consumer_dev
+    network_mode: "host"
+    environment:
+      - KAFKA_BROKER_URL=localhost:9092
+      - KAFKA_TOPIC=video_copy_events
+      - PROCESSING_API_URL=http://localhost:9999/process-videos/
+      - UI_API_URL=http://localhost:8080/api/task
+      - AI_FOLDER_PATH=/ssd1/inventory_count/
+      - AI_OUTPUT_SUBPATH=output/
+    restart: always

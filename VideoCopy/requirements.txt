@@ -1,0 +1,6 @@
+psutil
+confluent-kafka
+PySide6
+qt-material
+xxhash
+qtawesome

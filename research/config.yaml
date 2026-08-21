@@ -1,0 +1,8 @@
+path: /ssd1/tuannw/batch4/data
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: top_face
+  1: front_face

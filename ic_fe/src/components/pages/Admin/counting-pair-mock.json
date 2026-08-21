@@ -1,0 +1,742 @@
+[
+  {
+    "id": 222,
+    "rack_name": "AA-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 149,
+    "rack_name": "AA-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 223,
+    "rack_name": "AB-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 150,
+    "rack_name": "AB-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 224,
+    "rack_name": "AC-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 151,
+    "rack_name": "AC-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 225,
+    "rack_name": "AD-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 152,
+    "rack_name": "AD-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 226,
+    "rack_name": "AE-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 153,
+    "rack_name": "AE-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 227,
+    "rack_name": "AF-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 154,
+    "rack_name": "AF-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 228,
+    "rack_name": "AG-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 155,
+    "rack_name": "AG-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 229,
+    "rack_name": "AH-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 156,
+    "rack_name": "AH-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 230,
+    "rack_name": "AI-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 157,
+    "rack_name": "AI-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 231,
+    "rack_name": "AJ-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 158,
+    "rack_name": "AJ-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 232,
+    "rack_name": "AK-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 159,
+    "rack_name": "AK-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 233,
+    "rack_name": "AL-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 160,
+    "rack_name": "AL-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 234,
+    "rack_name": "AM-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 161,
+    "rack_name": "AM-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 235,
+    "rack_name": "AN-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 162,
+    "rack_name": "AN-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 236,
+    "rack_name": "AO-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 163,
+    "rack_name": "AO-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 237,
+    "rack_name": "AP-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 164,
+    "rack_name": "AP-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 238,
+    "rack_name": "AQ-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 165,
+    "rack_name": "AQ-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 239,
+    "rack_name": "AR-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 166,
+    "rack_name": "AR-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 240,
+    "rack_name": "AS-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 167,
+    "rack_name": "AS-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 241,
+    "rack_name": "AT-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 168,
+    "rack_name": "AT-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 242,
+    "rack_name": "AU-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 169,
+    "rack_name": "AU-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 243,
+    "rack_name": "AV-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 170,
+    "rack_name": "AV-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 244,
+    "rack_name": "AW-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 171,
+    "rack_name": "AW-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 245,
+    "rack_name": "AX-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 172,
+    "rack_name": "AX-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 246,
+    "rack_name": "AY-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 173,
+    "rack_name": "AY-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 247,
+    "rack_name": "AZ-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 174,
+    "rack_name": "AZ-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 248,
+    "rack_name": "BA-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 175,
+    "rack_name": "BA-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 249,
+    "rack_name": "BB-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 176,
+    "rack_name": "BB-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 250,
+    "rack_name": "BC-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 177,
+    "rack_name": "BC-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 251,
+    "rack_name": "BD-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 178,
+    "rack_name": "BD-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 252,
+    "rack_name": "BE-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 179,
+    "rack_name": "BE-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 253,
+    "rack_name": "BF-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 180,
+    "rack_name": "BF-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 254,
+    "rack_name": "BG-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 181,
+    "rack_name": "BG-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 255,
+    "rack_name": "BH-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 182,
+    "rack_name": "BH-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 256,
+    "rack_name": "BI-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 183,
+    "rack_name": "BI-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 257,
+    "rack_name": "CA-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 184,
+    "rack_name": "CA-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 258,
+    "rack_name": "CB-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 185,
+    "rack_name": "CB-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 259,
+    "rack_name": "CC-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 186,
+    "rack_name": "CC-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 260,
+    "rack_name": "CD-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 187,
+    "rack_name": "CD-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 261,
+    "rack_name": "CE-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 188,
+    "rack_name": "CE-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 262,
+    "rack_name": "CF-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 189,
+    "rack_name": "CF-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 263,
+    "rack_name": "CG-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 190,
+    "rack_name": "CG-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 264,
+    "rack_name": "CH-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 191,
+    "rack_name": "CH-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 265,
+    "rack_name": "CI-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 192,
+    "rack_name": "CI-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 266,
+    "rack_name": "CJ-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 193,
+    "rack_name": "CJ-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 267,
+    "rack_name": "CK-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 194,
+    "rack_name": "CK-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 268,
+    "rack_name": "CL-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 195,
+    "rack_name": "CL-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 269,
+    "rack_name": "CM-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 270,
+    "rack_name": "CO-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 196,
+    "rack_name": "CO-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 271,
+    "rack_name": "DA-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 197,
+    "rack_name": "DA-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 272,
+    "rack_name": "DB-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 198,
+    "rack_name": "DB-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 273,
+    "rack_name": "DC-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 199,
+    "rack_name": "DC-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 274,
+    "rack_name": "DD-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 200,
+    "rack_name": "DD-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 275,
+    "rack_name": "DE-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 201,
+    "rack_name": "DE-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 276,
+    "rack_name": "DF-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 202,
+    "rack_name": "DF-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 277,
+    "rack_name": "DG-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 203,
+    "rack_name": "DG-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 278,
+    "rack_name": "DH-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 204,
+    "rack_name": "DH-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 279,
+    "rack_name": "DI-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 205,
+    "rack_name": "DI-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 280,
+    "rack_name": "DJ-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 206,
+    "rack_name": "DJ-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 281,
+    "rack_name": "DK-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 207,
+    "rack_name": "DK-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 282,
+    "rack_name": "DL-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 208,
+    "rack_name": "DL-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 283,
+    "rack_name": "DM-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 209,
+    "rack_name": "DM-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 284,
+    "rack_name": "DN-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 210,
+    "rack_name": "DN-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 285,
+    "rack_name": "DO-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 211,
+    "rack_name": "DO-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 286,
+    "rack_name": "DP-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 212,
+    "rack_name": "DP-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 287,
+    "rack_name": "DQ-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 213,
+    "rack_name": "DQ-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 288,
+    "rack_name": "DR-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 214,
+    "rack_name": "DR-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 289,
+    "rack_name": "DS-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 215,
+    "rack_name": "DS-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 290,
+    "rack_name": "DT-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 216,
+    "rack_name": "DT-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 291,
+    "rack_name": "DU-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 217,
+    "rack_name": "DU-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 292,
+    "rack_name": "DV-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 218,
+    "rack_name": "DV-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 293,
+    "rack_name": "DW-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 219,
+    "rack_name": "DW-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 294,
+    "rack_name": "DX-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 220,
+    "rack_name": "DX-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 295,
+    "rack_name": "DY-even",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 221,
+    "rack_name": "DY-odd",
+    "status": "NOT_STARTED"
+  },
+  {
+    "id": 296,
+    "rack_name": "DZ-even",
+    "status": "NOT_STARTED"
+  }
+]

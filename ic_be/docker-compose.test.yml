@@ -1,0 +1,55 @@
+name: ai-ic-be-test
+
+services:
+  postgres_db:
+    image: postgres:14.2-alpine
+    container_name: ic_db_test
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: postgres
+    ports:
+      - "5434:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -U postgres" ]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+    restart: always
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ic_be_test
+    environment:
+      POSTGRES_SERVER: ic_db_test
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: postgres
+      POSTGRES_PORT: 5432
+      JWT_SECRET_KEY: "w14KZwMKCrnzTVKYPYKZiFnfGuJ7Rabl"
+      ALLOW_ORIGINS: "*"
+    depends_on:
+      postgres_db:
+        condition: service_healthy
+    ports:
+      - "8086:8000"
+    volumes:
+      - ${PATH_DATA}:/app/data
+      - ${PATH_TEMPLATE_FILE}:/app/template/information.xlsx
+    command: >
+      bash -c "
+        echo '⏳ Waiting for Postgres...';
+        sleep 5;
+        chmod +x scripts/setup.sh;
+        ./scripts/setup.sh;
+        echo '🚀 Starting FastAPI server...';
+        uvicorn app.main:app --host 0.0.0.0 --port 8000
+      "
+    restart: always
+
+volumes:
+  postgres_data:

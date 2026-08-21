@@ -1,0 +1,1 @@
+DROP TABLE counting_groups;

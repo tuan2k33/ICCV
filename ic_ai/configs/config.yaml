@@ -1,0 +1,21 @@
+ocr:
+  device: "gpu"
+  det_model: "PP-OCRv5_mobile_det"
+  rec_model: "PP-OCRv5_mobile_rec"
+  server_det: "weights/official_models/PP-OCRv5_server_det"
+  mobile_det: "weights/official_models/PP-OCRv5_mobile_det"
+  server_rec: "weights/official_models/PP-OCRv5_server_rec"
+  mobile_rec: "weights/official_models/PP-OCRv5_mobile_rec"
+
+classifier:
+  model_path: "weights/resnet50_trained.pth"
+
+video:
+  output_dir: "outputs_2510_SD3_evenAD1111111111111111/"
+  raw_csv: "output_raw.csv"
+  processed_csv: "output_processed.csv"
+
+
+batch_size: 16    
+batch_size_ocr: 16
+batch_size_pid: 1

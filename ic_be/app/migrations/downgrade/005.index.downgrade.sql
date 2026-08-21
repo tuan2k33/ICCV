@@ -1,0 +1,2 @@
+drop index idx_tasks_batch_id_created_at;
+drop index idx_tasks_batch_id_rack_name;

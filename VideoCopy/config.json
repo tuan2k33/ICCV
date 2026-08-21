@@ -1,0 +1,7 @@
+{
+    "destination_path": "/hdd1/inventory_count/input_test",
+    "video_extensions": ".mp4, .mov, .mkv, .avi",
+    "conflict_policy": "\u0110\u1ed5i T\u00ean",
+    "kafka_servers": "localhost:9093",
+    "kafka_topic": "video_copy_events"
+}

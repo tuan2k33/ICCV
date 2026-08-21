@@ -1,0 +1,5 @@
+# Large data / output directories
+*output*/
+snapshot/
+test/
+ic_fe/public/AI_IC_import_template.xlsx

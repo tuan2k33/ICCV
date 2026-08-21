@@ -1,0 +1,15 @@
+name: kafka-consumer-test
+
+services:
+  consumer-service:
+    build: .
+    container_name: ic_consumer_test
+    network_mode: "host"
+    environment:
+      - KAFKA_BROKER_URL=localhost:9093
+      - KAFKA_TOPIC=video_copy_events
+      - PROCESSING_API_URL=http://localhost:9998/process-videos/
+      - UI_API_URL=http://localhost:8086/api/task
+      - AI_FOLDER_PATH=/ssd1/tuannq/inventory_count/
+      - AI_OUTPUT_SUBPATH=output/
+    restart: always

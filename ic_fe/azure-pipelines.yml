@@ -1,0 +1,72 @@
+trigger:
+- DEVELOP
+
+pool:
+  name: ai_ic
+  demands:
+    - agent.name -equals server-30-28
+
+steps:
+# 1️⃣ Checkout code (bình thường)
+- checkout: self
+  clean: true
+  persistCredentials: true
+  fetchDepth: 1
+  displayName: "Checkout source code"
+
+# 2️⃣ Cài Git LFS và tải toàn bộ file thật
+- script: |
+    echo "Installing Git LFS..."
+    git lfs install
+    git lfs fetch --all
+    git lfs checkout
+  displayName: "Setup Git LFS"
+
+# 3️⃣ Disable CRLF conversion (để tránh lỗi binary)
+- script: |
+    git config --global core.autocrlf false
+  displayName: "Disable Git auto CRLF conversion"
+
+# 4️⃣ Clean old target folder
+- script: |
+    if exist "D:\AI-IC\AI_IC_FE" (
+      rmdir /s /q D:\AI-IC\AI_IC_FE || exit 0
+    )
+    mkdir D:\AI-IC\AI_IC_FE
+  displayName: "Clean old target folder"
+
+# 5️⃣ Copy files
+- task: CopyFiles@2
+  inputs:
+    SourceFolder: '$(Build.SourcesDirectory)'
+    Contents: '**'
+    TargetFolder: 'D:\AI-IC\AI_IC_FE'
+    OverWrite: true
+  displayName: 'Copy source to target folder'
+
+# 6️⃣ Deploy app
+- script: |
+    cd D:\AI-IC\AI_IC_FE
+    docker compose down || exit 0
+    docker compose build --no-cache || exit 0
+    docker compose up -d || exit 0
+  displayName: "Deploy App"
+
+# Copy code qua VPS
+# - task: CopyFilesOverSSH@0
+#   inputs:
+#     sshEndpoint: '114_ssh'   # Service connection trong Project Settings > Service connections
+#     sourceFolder: '$(Build.SourcesDirectory)'
+#     contents: '**'
+#     targetFolder: '/home/test'
+
+# # Chạy lệnh trên VPS
+# - task: SSH@0
+#   inputs:
+#     sshEndpoint: '114_ssh'
+#     runOptions: 'inline'
+#     inline: |
+#       cd /home/test
+#       docker compose down 2>/dev/null || true
+#       docker compose build --no-cache 2>/dev/null || true
+#       docker compose up -d 2>/dev/null || true

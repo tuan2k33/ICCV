@@ -1,0 +1,106 @@
+=========================
+FAILED
+/ssd1/tuannw/output_fix_merged/[30-05-25]/ORAL - Double deep/Rack BD/BD - 019 - 1_.png
+/ssd1/tuannw/output_fix_merged/[30-05-25]/ORAL - Double deep/Rack BE/BE - 011 - 1_.png
+/ssd1/tuannw/output_fix_merged/[29-05-25]/ORAL - Double deep/Rack BE/BE - 014 - 1_.png
+/ssd1/tuannw/output_fix_merged/[29-05-25]/ORAL - Double deep/Rack BE/BE - 020 - 1_.png
+/ssd1/tuannw/output_fix_merged/[29-05-25]/ORAL - Double deep/Rack BE/BE - 026 - 1_.png
+/ssd1/tuannw/output_fix_merged/[29-05-25]/ORAL - Double deep/Rack BE/BE - 033 - 1_.png
+/ssd1/tuannw/output_fix_merged/[29-05-25]/PC/Rack AO/AO - 072 - 1.png
+/ssd1/tuannw/output_fix_merged/[29-05-25]/PC/Rack AQ/AQ - 089 - 1.png
+/ssd1/tuannw/output_fix_merged/[29-05-25]/PC/Rack AR/AR - 092 - 1_.png
+/ssd1/tuannw/output_fix_merged/[26-05-25]/HCL/Rack DA/DA - 070 - 1_.png
+/ssd1/tuannw/output_fix_merged/[27-05-25]/ORAL/Double deep/Rack BE/BE - 014 - 1.png
+/ssd1/tuannw/output_fix_merged/[27-05-25]/ORAL/Double deep/Rack BE/BE - 033 - 1.png
+/ssd1/tuannw/output_fix_merged/[27-05-25]/PC/Rack AL/AL - 015 - 1_.png
+/ssd1/tuannw/output_fix_merged/[27-05-25]/PC/Rack AL/AL - 103 - 1_.png
+/ssd1/tuannw/output_fix_merged/[27-05-25]/PC/Rack AK/AK - 008 - 1_.png
+/ssd1/tuannw/output_fix_merged/[27-05-25]/PC/Rack AK/AK - 013 - 1_.png
+/ssd1/tuannw/output_fix_merged/[27-05-25]/PC/Rack AJ/AJ - 014 - 1_.png
+/ssd1/tuannw/output_fix_merged/[28-05-25]/FOOD/Double deep/Rack BA/BA - 086 - 1.png
+/ssd1/tuannw/output_fix_merged/[28-05-25]/FOOD/Double deep/Rack BB/BB - 094 - 1_.png
+/ssd1/tuannw/output_fix_merged/[28-05-25]/FOOD/Double deep/Rack AZ - Double/AZ - 093 - 1_.png
+/ssd1/tuannw/output_fix_merged/[28-05-25]/FOOD/Single deep/Rack AY/AY - 092 - 1.png
+/ssd1/tuannw/output_fix_merged/[28-05-25]/FOOD/Single deep/Rack AX/AX - 037 - 1.png
+/ssd1/tuannw/output_fix_merged/[28-05-25]/FOOD/Single deep/Rack AX/AX - 041 - 1.png
+/ssd1/tuannw/output_fix_merged/[28-05-25]/FOOD/Single deep/Rack AX/AX - 015 - 1.png
+/ssd1/tuannw/output_fix_merged/[28-05-25]/ORAL/Rack AW/AW - 083 - 1_.png
+/ssd1/tuannw/output_fix_merged/[28-05-25]/ORAL/Rack AW/AW - 020 - 1_.png
+/ssd1/tuannw/output_fix_merged/[28-05-25]/ORAL/Rack AW/AW - 029 - 1_.png
+/ssd1/tuannw/output_fix_merged/[28-05-25]/ORAL/Rack AW/AW - 048 - 1_.png
+/ssd1/tuannw/output_fix_merged/[28-05-25]/ORAL/Rack AW/AW - 074 - 1_.png
+/ssd1/tuannw/output_fix_merged/[28-05-25]/ORAL/Rack AX/AX - 044 - 1.png
+/ssd1/tuannw/output_fix_merged/[28-05-25]/ORAL/Rack AX/AX - 048 - 1.png
+/ssd1/tuannw/output_fix_merged/[28-05-25]/ORAL/Rack AV/AV - 016 - 1_.png
+/ssd1/tuannw/output_fix_merged/[28-05-25]/ORAL/Rack AV/AV - 001 - 1_.png
+/ssd1/tuannw/output_fix_merged/[28-05-25]/ORAL/Rack AU/AU - 079 - 1_.png
+/ssd1/tuannw/output_fix_merged/[24-05-25]/Rack AG/AG - 106 - 1_.png
+/ssd1/tuannw/output_fix_merged/[24-05-25]/Rack AH/AH - 031 - 1_.png
+/ssd1/tuannw/output_fix_merged/[24-05-25]/Rack AH/AH - 033 - 1_.png
+/ssd1/tuannw/output_fix_merged/[24-05-25]/Rack AI/AI - 093 - 1_.png
+/ssd1/tuannw/output_fix_merged/[24-05-25]/Rack AI/AI - 041 - 1_.png
+/ssd1/tuannw/output_fix_merged/[24-05-25]/Rack AI/AI - 126 - 1_.png
+/ssd1/tuannw/output_fix_merged/[24-05-25]/Rack AF/AF - 144 - 1_.png
+/ssd1/tuannw/output_fix_merged/[24-05-25]/Rack AE/AE - 145 - 1_.png
+/ssd1/tuannw/output_fix_merged/[24-05-25]/Rack AF/AF - 146 - 1_.png
+/ssd1/tuannw/output_fix_merged/[24-05-25]/Rack AI/AI - 120 - 1_.png
+/ssd1/tuannw/output_fix_merged/[22-05-25] - HCL/Rack DC/DC - 092 - 1_.png
+/ssd1/tuannw/output_fix_merged/[22-05-25] - HCL/Rack DE/DE - 053 - 1_(1).png
+/ssd1/tuannw/output_fix_merged/[22-05-25] - HCL/Rack DE/DE - 063 - 1_.png
+/ssd1/tuannw/output_fix_merged/[22-05-25] - HCL/Rack DI/DI - 044 - 1_.png
+/ssd1/tuannw/output_fix_merged/[23-05-25] - HCP Sg/Rack CI/CI - 020 - 1_.png
+/ssd1/tuannw/output_fix_merged/[23-05-25] - HCP Sg/Rack CH /CH - 057 - 1_.png
+=========================
+MANUAL
+['/ssd1/tuannw/output_fix_merged/[30-05-25]/FOOD - Double deep/Rack BB/BB - 046 - 1_.png']
+['/ssd1/tuannw/output_fix_merged/[30-05-25]/ORAL - Double deep/Rack BE/BE - 014 - 1_.png']
+['/ssd1/tuannw/output_fix_merged/[30-05-25]/ORAL - Double deep/Rack BE/BE - 102 - 1_.png']
+['/ssd1/tuannw/output_fix_merged/[29-05-25]/ORAL - Double deep/Rack BE/BE - 017 - 1_.png']
+['/ssd1/tuannw/output_fix_merged/[29-05-25]/PC/Rack AO/AO - 098 - 1.png']
+['/ssd1/tuannw/output_fix_merged/[29-05-25]/PC/Rack AO/AO - 115 - 1.png']
+['/ssd1/tuannw/output_fix_merged/[29-05-25]/PC/Rack AS/AS - 024 - 1_.png']
+['/ssd1/tuannw/output_fix_merged/[27-05-25]/FOOD/Double deep/Rack BB/BB - 046 - 1_.png']
+['/ssd1/tuannw/output_fix_merged/[27-05-25]/PC/Rack AL/AL - 049 - 1_.png']
+['/ssd1/tuannw/output_fix_merged/[27-05-25]/PC/Rack AM/AM - 039 - 1_.png']
+['/ssd1/tuannw/output_fix_merged/[27-05-25]/PC/Rack AM/AM - 108 - 1_.png']
+['/ssd1/tuannw/output_fix_merged/[27-05-25]/PC/Rack AM/AM - 078 - 1_.png']
+['/ssd1/tuannw/output_fix_merged/[27-05-25]/PC/Rack AM/AM - 106 - 1_.png']
+['/ssd1/tuannw/output_fix_merged/[27-05-25]/PC/Rack AK/AK - 091 - 1_.png']
+['/ssd1/tuannw/output_fix_merged/[27-05-25]/PC/Rack AK/AK - 016 - 1_.png']
+['/ssd1/tuannw/output_fix_merged/[27-05-25]/PC/Rack AK/AK - 043 - 1_.png']
+['/ssd1/tuannw/output_fix_merged/[27-05-25]/PC/Rack AN /AN - 097 - 1_.png']
+['/ssd1/tuannw/output_fix_merged/[27-05-25]/PC/Rack AN /AN - 106 - 1_.png']
+['/ssd1/tuannw/output_fix_merged/[27-05-25]/PC/Rack AN /AN - 065 - 1_.png']
+['/ssd1/tuannw/output_fix_merged/[27-05-25]/PC/Rack AN /AN - 056 - 1_.png']
+['/ssd1/tuannw/output_fix_merged/[28-05-25]/FOOD/Single deep/Rack AY/AY - 071 - 1.png']
+['/ssd1/tuannw/output_fix_merged/[28-05-25]/FOOD/Single deep/Rack AX/AX - 055 - 1.png']
+['/ssd1/tuannw/output_fix_merged/[28-05-25]/FOOD/Single deep/Rack AZ - Single/AZ - 056 - 1_.png']
+['/ssd1/tuannw/output_fix_merged/[28-05-25]/ORAL/Rack AW/AW - 019 - 1_.png']
+['/ssd1/tuannw/output_fix_merged/[28-05-25]/ORAL/Rack AW/AW - 031 - 1_.png']
+['/ssd1/tuannw/output_fix_merged/[28-05-25]/ORAL/Rack AV/AV - 011 - 1_.png']
+['/ssd1/tuannw/output_fix_merged/[28-05-25]/ORAL/Rack AV/AV - 008 - 1_.png']
+['/ssd1/tuannw/output_fix_merged/[28-05-25]/ORAL/Rack AV/AV - 027 - 1.png']
+['/ssd1/tuannw/output_fix_merged/[28-05-25]/ORAL/Rack AU/AU - 011 - 1_.png']
+['/ssd1/tuannw/output_fix_merged/[24-05-25]/Rack AM/AM - 110 - 1_.png']
+['/ssd1/tuannw/output_fix_merged/[24-05-25]/Rack AG/AG - 127 - 1_.png']
+['/ssd1/tuannw/output_fix_merged/[24-05-25]/Rack AL/AL - 077 - 1.png']
+['/ssd1/tuannw/output_fix_merged/[24-05-25]/Rack AH/AH - 043 - 1_.png']
+['/ssd1/tuannw/output_fix_merged/[24-05-25]/Rack AN/AN - 116 - 1_.png']
+['/ssd1/tuannw/output_fix_merged/[24-05-25]/Rack AK/AK - 116 - 1.png']
+['/ssd1/tuannw/output_fix_merged/[24-05-25]/Rack AK/AK - 126 - 1.png']
+['/ssd1/tuannw/output_fix_merged/[24-05-25]/Rack AK/AK - 080 - 1.png']
+['/ssd1/tuannw/output_fix_merged/[24-05-25]/Rack AK/AK - 102 - 1.png']
+['/ssd1/tuannw/output_fix_merged/[24-05-25]/Rack AK/AK - 113 - 1.png']
+['/ssd1/tuannw/output_fix_merged/[24-05-25]/Rack AI/AI - 078 - 1_.png']
+['/ssd1/tuannw/output_fix_merged/[24-05-25]/Rack AI/AI - 105 - 1_.png']
+['/ssd1/tuannw/output_fix_merged/[24-05-25]/Rack AI/AI - 041 - 1_.png']
+['/ssd1/tuannw/output_fix_merged/[24-05-25]/Rack AI/AI - 108 - 1_.png']
+['/ssd1/tuannw/output_fix_merged/[24-05-25]/Rack AF/AF - 068 - 1_.png']
+['/ssd1/tuannw/output_fix_merged/[24-05-25]/Rack AF/AF - 065 - 1_.png']
+['/ssd1/tuannw/output_fix_merged/[24-05-25]/Rack AF/AF - 129 - 1_.png']
+['/ssd1/tuannw/output_fix_merged/[22-05-25] - HCL/Rack DC/DC - 080 - 1_.png']
+['/ssd1/tuannw/output_fix_merged/[22-05-25] - HCL/Rack DF/DF - 116 - 1_.png']
+['/ssd1/tuannw/output_fix_merged/[22-05-25] - HCL/Rack DF/DF - 121 - 1_.png']
+['/ssd1/tuannw/output_fix_merged/[22-05-25] - HCL/Rack DI/DI - 046 - 1_.png']
+['/ssd1/tuannw/output_fix_merged/[23-05-25] - HCP Sg/Rack CI/CI - 078 - 1_.png']
+['/ssd1/tuannw/output_fix_merged/[23-05-25] - HCP Sg/Rack CH /CH - 058 - 1_.png']

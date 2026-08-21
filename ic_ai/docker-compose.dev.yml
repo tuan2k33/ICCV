@@ -1,0 +1,26 @@
+name: inventory-count-ai-dev
+
+services:
+  inventory_api:
+    image: decord2:20260605
+    container_name: ic_ai_dev
+    ports:
+      - "9999:8000"
+    volumes:
+      - .:/app
+      - /ssd1:/ssd1
+      - /hdd1:/hdd1
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+      - NVIDIA_DRIVER_CAPABILITIES=compute,utility,video
+    shm_size: "16g"
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu, video]
+    command: uvicorn api_server:app --host 0.0.0.0 --port 8000
+    working_dir: /app
+    restart: always

@@ -1,0 +1,54 @@
+trigger:
+- DEVELOP
+
+pool:
+  name: ai_ic
+  demands:
+    - agent.name -equals server-30-28
+
+steps:
+- checkout: self
+
+- script: echo "Start deploying to VPS"
+  displayName: "Start Job"
+
+- script: |
+    if exist "D:\AI-IC\AI_IC_BE" (
+      rmdir /s /q D:\AI-IC\AI_IC_BE || exit 0
+    )
+    mkdir D:\AI-IC\AI_IC_BE
+  displayName: "Clean old target folder"
+
+- task: CopyFiles@2
+  inputs:
+    SourceFolder: '$(Build.SourcesDirectory)'
+    Contents: '**'
+    TargetFolder: 'D:\AI-IC\AI_IC_BE'
+  displayName: 'Copy source to target folder'
+
+- script: |
+    cd D:\AI-IC\AI_IC_BE
+    set PATH_DATA=./data
+    set PATH_TEMPLATE_FILE=./template.xlsx
+    docker compose build --no-cache || exit 0
+    docker compose up -d || exit 0
+  displayName: "Deploy App"
+
+# Copy code qua VPS
+# - task: CopyFilesOverSSH@0
+#   inputs:
+#     sshEndpoint: '114_ssh'   # Service connection trong Project Settings > Service connections
+#     sourceFolder: '$(Build.SourcesDirectory)'
+#     contents: '**'
+#     targetFolder: '/home/test'
+
+# # Chạy lệnh trên VPS
+# - task: SSH@0
+#   inputs:
+#     sshEndpoint: '114_ssh'
+#     runOptions: 'inline'
+#     inline: |
+#       cd /home/test
+#       docker compose down 2>/dev/null || true
+#       docker compose build --no-cache 2>/dev/null || true
+#       docker compose up -d 2>/dev/null || true
